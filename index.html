@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Responsive Side Navigation Bar</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/63b6ec0cd0.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".hamburger").click(function(){
+			   $(".wrapper").toggleClass("collapse");
+			});
+		});
+	</script>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="top_navbar">
+    <div class="hamburger">
+       <div class="one"></div>
+       <div class="two"></div>
+       <div class="three"></div>
+    </div>
+    <div class="top_menu">
+      <div class="logo">Photos</div>
+      <ul>
+        <li><a href="#">
+          <i class="fas fa-search"></i></a></li>
+        <li><a href="#">
+          <i class="fas fa-bell"></i>
+          </a></li>
+        <li><a href="#">
+          <i class="fas fa-user"></i>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="sidebar">
+      <ul>
+        <li><a href="https://www.google.com/">
+          <span class="icon"><i class="far fa-sun"></i></span>
+          <span class="title">Summer</span></a></li>
+        <li><a href="#">
+          <span class="icon"><i class="fas fa-leaf"></i></span>
+          <span class="title">Autumn</span>
+          </a></li>
+        <li><a href="#">
+          <span class="icon"><i class="fas fa-fan"></i></span>
+          <span class="title">Spring</span>
+          </a></li>
+        <li><a href="#">
+          <span class="icon"><i class="far fa-snowflake"></i></span>
+          <span class="title">Winter</span>
+          </a></li>
+    </ul>
+  </div>
+  
+  <div class="main_container">
+    <div class="item">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut sapiente adipisci nemo atque eligendi reprehenderit minima blanditiis eum quae aspernatur!
+    </div>
+    <div class="item">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut sapiente adipisci nemo atque eligendi reprehenderit minima blanditiis eum quae aspernatur!
+    </div>
+    <div class="item">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut sapiente adipisci nemo atque eligendi reprehenderit minima blanditiis eum quae aspernatur!
+    </div>
+    <div class="item">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut sapiente adipisci nemo atque eligendi reprehenderit minima blanditiis eum quae aspernatur!
+    </div>
+  </div>
+</div>
+	
+</body>
+</html>
